@@ -1,0 +1,202 @@
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px ;
+    position: fixed;
+}
+
+a{
+color: white;
+font-color:white;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.hyperlink {
+display: flex;
+flex:auto;
+padding: 0px 40px 0px 40px;
+}
+
+.hyperlink a {
+    padding: 0px 10px 0px 10px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.navigation a:hover {
+    color: blue;
+}
+
+.hero {
+padding: 100px;
+text-align: center;
+max-width: 60%;
+
+}
+
+.section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://wallup.net/wp-content/uploads/2018/03/17/540089-programmers-AutoHotkey-code-programming-laptop-ThinkPad.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000b8;
+    background-blend-mode: color;
+}
+
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 100px 0px 18px 0px;
+    text-align: center;
+}
+
+.main h2 span {
+    display: block;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin: bottom;
+}
+
+.main-btn {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+h2 {
+    font-family: cursive;
+    padding: 20px 0px 0px 20px;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+a {
+    font-family: cursive;
+}
+
+.projects {
+    background-image: linear-gradient(rgb(14, 8, 85),orange);
+    width :100%;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid color(#fff);
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+}
+
+.content{
+margin-top: 30px;
+display: flex;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: blue;
+}
+
+.more-details:hover {
+    color: purple;
+}
+
+.title{
+color:rgb(255, 255, 255);
+}
